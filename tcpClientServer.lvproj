@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="CommonSubcode" Type="Folder">
+			<Item Name="TCPreadTerminatedString.vi" Type="VI" URL="../subcode/TCPreadTerminatedString.vi"/>
+		</Item>
 		<Item Name="TCPpalette" Type="Folder">
 			<Item Name="CreateQueues.vi" Type="VI" URL="../Palette/CreateQueues.vi"/>
 			<Item Name="DaemonShutdown.vi" Type="VI" URL="../Palette/DaemonShutdown.vi"/>
