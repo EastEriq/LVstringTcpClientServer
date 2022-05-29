@@ -22,6 +22,7 @@
 			<Item Name="ReceiveMultipleStrings.vi" Type="VI" URL="../Palette/ReceiveMultipleStrings.vi"/>
 			<Item Name="ReceiveString.vi" Type="VI" URL="../Palette/ReceiveString.vi"/>
 			<Item Name="TransmitString.vi" Type="VI" URL="../Palette/TransmitString.vi"/>
+			<Item Name="WaitForReceivedString.vi" Type="VI" URL="../Palette/WaitForReceivedString.vi"/>
 			<Item Name="stripCRLF.vi" Type="VI" URL="../Palette/stripCRLF.vi"/>
 			<Item Name="tcpMessageClient.vi" Type="VI" URL="../Palette/tcpMessageClient.vi"/>
 			<Item Name="tcpMessageServer.vi" Type="VI" URL="../Palette/tcpMessageServer.vi"/>
