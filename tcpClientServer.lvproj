@@ -13,6 +13,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CommonSubcode" Type="Folder">
+			<Item Name="Nagle" Type="Folder">
+				<Item Name="NagleDemo-MessageReflector.vi" Type="VI" URL="../Nagle/NagleDemo-MessageReflector.vi"/>
+				<Item Name="NagleDemo-MessageSender.vi" Type="VI" URL="../Nagle/NagleDemo-MessageSender.vi"/>
+				<Item Name="TCP_NoDelay_Linux.vi" Type="VI" URL="../Nagle/TCP_NoDelay_Linux.vi"/>
+				<Item Name="TCP_NoDelay_Phar_Lap.vi" Type="VI" URL="../Nagle/TCP_NoDelay_Phar_Lap.vi"/>
+				<Item Name="TCP_NoDelay_VxWorks.vi" Type="VI" URL="../Nagle/TCP_NoDelay_VxWorks.vi"/>
+				<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../Nagle/TCP_NoDelay_Windows.vi"/>
+			</Item>
+			<Item Name="DisableNagle.vi" Type="VI" URL="../subcode/DisableNagle.vi"/>
 			<Item Name="TCPreadTerminatedString.vi" Type="VI" URL="../subcode/TCPreadTerminatedString.vi"/>
 		</Item>
 		<Item Name="TCPpalette" Type="Folder">
@@ -37,6 +46,13 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
+			</Item>
+			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
