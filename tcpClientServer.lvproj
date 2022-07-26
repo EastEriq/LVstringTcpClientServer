@@ -22,6 +22,7 @@
 				<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../Nagle/TCP_NoDelay_Windows.vi"/>
 			</Item>
 			<Item Name="DisableNagle.vi" Type="VI" URL="../subcode/DisableNagle.vi"/>
+			<Item Name="PollReceiveQueue.vi" Type="VI" URL="../subcode/PollReceiveQueue.vi"/>
 			<Item Name="TCPreadTerminatedString.vi" Type="VI" URL="../subcode/TCPreadTerminatedString.vi"/>
 		</Item>
 		<Item Name="TCPpalette" Type="Folder">
