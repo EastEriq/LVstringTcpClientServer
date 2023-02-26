@@ -23,6 +23,7 @@
 			</Item>
 			<Item Name="DisableNagle.vi" Type="VI" URL="../subcode/DisableNagle.vi"/>
 			<Item Name="PollReceiveQueue.vi" Type="VI" URL="../subcode/PollReceiveQueue.vi"/>
+			<Item Name="PollReceiveQueueNoSemaphore.vi" Type="VI" URL="../subcode/PollReceiveQueueNoSemaphore.vi"/>
 			<Item Name="TCPreadTerminatedString.vi" Type="VI" URL="../subcode/TCPreadTerminatedString.vi"/>
 		</Item>
 		<Item Name="TCPpalette" Type="Folder">
@@ -30,8 +31,10 @@
 			<Item Name="DaemonShutdown.vi" Type="VI" URL="../Palette/DaemonShutdown.vi"/>
 			<Item Name="DaemonStatus.vi" Type="VI" URL="../Palette/DaemonStatus.vi"/>
 			<Item Name="ReceiveMultipleStrings.vi" Type="VI" URL="../Palette/ReceiveMultipleStrings.vi"/>
+			<Item Name="ReceiveMultipleStringsNoSemaphore.vi" Type="VI" URL="../Palette/ReceiveMultipleStringsNoSemaphore.vi"/>
 			<Item Name="ReceiveString.vi" Type="VI" URL="../Palette/ReceiveString.vi"/>
 			<Item Name="TransmitString.vi" Type="VI" URL="../Palette/TransmitString.vi"/>
+			<Item Name="TransmitStringNoSemaphore.vi" Type="VI" URL="../Palette/TransmitStringNoSemaphore.vi"/>
 			<Item Name="WaitForReceivedString.vi" Type="VI" URL="../Palette/WaitForReceivedString.vi"/>
 			<Item Name="stripCRLF.vi" Type="VI" URL="../Palette/stripCRLF.vi"/>
 			<Item Name="tcpMessageClient.vi" Type="VI" URL="../Palette/tcpMessageClient.vi"/>
