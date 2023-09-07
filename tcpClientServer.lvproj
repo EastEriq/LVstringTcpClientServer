@@ -21,7 +21,10 @@
 				<Item Name="TCP_NoDelay_VxWorks.vi" Type="VI" URL="../Nagle/TCP_NoDelay_VxWorks.vi"/>
 				<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../Nagle/TCP_NoDelay_Windows.vi"/>
 			</Item>
+			<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="../subcode/1D Array to String__ogtk.vi"/>
 			<Item Name="DisableNagle.vi" Type="VI" URL="../subcode/DisableNagle.vi"/>
+			<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="../subcode/End of Line Constant (bug fix).vi"/>
+			<Item Name="LogTextBuffer.vi" Type="VI" URL="../subcode/LogTextBuffer.vi"/>
 			<Item Name="PollReceiveQueue.vi" Type="VI" URL="../subcode/PollReceiveQueue.vi"/>
 			<Item Name="PollReceiveQueueNoSemaphore.vi" Type="VI" URL="../subcode/PollReceiveQueueNoSemaphore.vi"/>
 			<Item Name="TCPreadTerminatedString.vi" Type="VI" URL="../subcode/TCPreadTerminatedString.vi"/>
