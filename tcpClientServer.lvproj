@@ -36,6 +36,7 @@
 			<Item Name="ReceiveMultipleStrings.vi" Type="VI" URL="../Palette/ReceiveMultipleStrings.vi"/>
 			<Item Name="ReceiveMultipleStringsNoSemaphore.vi" Type="VI" URL="../Palette/ReceiveMultipleStringsNoSemaphore.vi"/>
 			<Item Name="ReceiveString.vi" Type="VI" URL="../Palette/ReceiveString.vi"/>
+			<Item Name="ReleaseQueues.vi" Type="VI" URL="../Palette/ReleaseQueues.vi"/>
 			<Item Name="TransmitString.vi" Type="VI" URL="../Palette/TransmitString.vi"/>
 			<Item Name="TransmitStringNoSemaphore.vi" Type="VI" URL="../Palette/TransmitStringNoSemaphore.vi"/>
 			<Item Name="WaitForReceivedString.vi" Type="VI" URL="../Palette/WaitForReceivedString.vi"/>
